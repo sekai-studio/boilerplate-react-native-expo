@@ -5,7 +5,7 @@ RUN apt-get install -y git
 
 RUN yarn global add expo-cli@5.3.2
 
-RUN mkdir /var/myAppName
-WORKDIR /var/myAppName
+RUN mkdir /var/testdo
+WORKDIR /var/testdo
 
 CMD sleep infinity
