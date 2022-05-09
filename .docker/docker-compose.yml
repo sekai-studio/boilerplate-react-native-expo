@@ -1,13 +1,13 @@
 version: "3"
 
 services:
-  testdo:
+  myAppName:
     build: .
-    container_name: testdo
+    container_name: myAppName
     environment:
       - REACT_NATIVE_PACKAGER_HOSTNAME=${REACT_NATIVE_PACKAGER_HOSTNAME}
     volumes:
-      - ../../testdo:/var/testdo
+      - ../../myAppName:/var/myAppName
     ports:
       - 19000:19000
       - 19001:19001
