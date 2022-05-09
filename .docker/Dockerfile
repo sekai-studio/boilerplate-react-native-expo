@@ -5,7 +5,7 @@ RUN apt-get install -y git
 
 RUN yarn global add expo-cli@5.3.2
 
-RUN mkdir /var/boilerplate-react-native-expo
-WORKDIR /var/boilerplate-react-native-expo
+RUN mkdir /var/myAppName
+WORKDIR /var/myAppName
 
 CMD sleep infinity

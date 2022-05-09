@@ -34,9 +34,12 @@ brew cask install docker
 
 Git clone this project in a working directory, next:
 
+1.Replace in Dockerfile and docker-compose file, all noted parts `myAppName` by your own project's name.
+
+2.Run
 ```
 cd //**yourNameApp**//
-yarn i 
+yarn
 cd .docker
 echo "REACT_NATIVE_PACKAGER_HOSTNAME=###YOUR_IP_ADDRESS###" > .env 
 docker-compose up -d 
@@ -46,7 +49,17 @@ Output:
 ```
 container //**yourNameApp**// Started 
 ```
+<u>To get your IP address</u>, run:
 
+For **MAC OS**
+```
+ifconfig -l | xargs -n1 ipconfig getifaddr
+```
+
+For **Windows** and copy/paste IPv4 Address
+```
+ipconfig/all
+```
 ## Run the application 
 
 Open a terminal, and make sure an image is created why the name is `//**yourNameApp**//`:
