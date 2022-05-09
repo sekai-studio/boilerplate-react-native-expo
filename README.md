@@ -80,7 +80,7 @@ And, start the application.
 ```
 yarn run start
 ```
-To access the debugger page [localhost:19000/debugger-ui](http://localhost:8081/debugger-ui/)
+To access the debugger page [localhost:19000/debugger-ui](localhost:19000/debugger-ui/)
 
 <u>without debugger</u>:
 ```
