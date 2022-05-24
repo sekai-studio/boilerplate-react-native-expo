@@ -34,7 +34,7 @@ brew cask install docker
 
 Git clone this project in a working directory, next:
 
-1.Replace in Dockerfile and docker-compose file, all noted parts `myAppName` by your own project's name.
+1.Replace in Dockerfile and docker-compose file, all noted parts `myAppName` by your own project's name (lowercase).
 
 2.Run
 ```
@@ -80,7 +80,7 @@ And, start the application.
 ```
 yarn run start
 ```
-To access the debugger page [localhost:19000/debugger-ui](localhost:19000/debugger-ui/)
+To access the debugger page [localhost:19000/debugger-ui](https://localhost:19000/debugger-ui/)
 
 <u>without debugger</u>:
 ```
